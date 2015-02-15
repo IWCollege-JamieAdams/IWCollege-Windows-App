@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IWCollege.Resources">
+
+    <FontFamily x:Key="Montserrat">/Assets/Fonts/montserrat/regular/montserrat-regular-webfont.ttf#Montserrat</FontFamily>
+
+    <FontFamily x:Key="MontserratLight">/Assets/Fonts/montserrat/light/montserrat-light-webfont.ttf#Montserrat</FontFamily>
+
+    <FontFamily x:Key="MontserratHairLine">/Assets/Fonts/montserrat/hairline/montserrat-hairline-webfont.ttf#Montserrat</FontFamily>
+
+    <FontFamily x:Key="MontserratBold">/Assets/Fonts/montserrat/bold/montserrat-bold-webfont.ttf#Montserrat</FontFamily>
+
+    <FontFamily x:Key="MontserratBlack">/Assets/Fonts/montserrat/black/montserrat-black-webfont.ttf#Montserrat</FontFamily>
+
+</ResourceDictionary>

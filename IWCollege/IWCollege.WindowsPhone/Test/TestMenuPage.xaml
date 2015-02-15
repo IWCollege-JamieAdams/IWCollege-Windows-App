@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="IWCollege.Test.TestMenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IWCollege.Test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="12"
+                HorizontalAlignment="Center">
+        
+        <Button Content="Fonts" x:Name="FontsPAge" Click="FontsPage_Click" />
+        <Button Content="Colours" x:Name="Colours" Click="ColoursPage_Click" />
+        <Button Content="Courses" x:Name="Courses" Click="Courses_Click" />
+        
+    </StackPanel>
+</Page>

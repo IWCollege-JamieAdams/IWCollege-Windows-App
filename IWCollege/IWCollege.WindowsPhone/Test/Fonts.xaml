@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="IWCollege.Test.Fonts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IWCollege.Test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="12">
+        
+
+        <TextBlock Text="Default"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}" />
+
+        <TextBlock Text="Standard"
+                   FontFamily="{StaticResource Montserrat}"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}"/>
+
+        <TextBlock Text="Light"
+                   FontFamily="{StaticResource MontserratLight}"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}"
+                   x:Name="Light"/>
+        <TextBlock Text="Hairline"
+                   FontFamily="{StaticResource MontserratHairLine}"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}"/>
+        <TextBlock Text="Bold"
+                   FontFamily="{StaticResource MontserratBold}"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}"/>
+        <TextBlock Text="Black"
+                   FontFamily="{StaticResource MontserratBlack}"
+                   FontSize="{StaticResource TextStyleExtraExtraLargeFontSize}"/>
+    </StackPanel>
+</Page>

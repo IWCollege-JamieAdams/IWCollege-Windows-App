@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="IWCollege.Test.Colours"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IWCollege.Test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="12">
+        
+        <Rectangle Fill="{StaticResource CollegeBlue}"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource STEMPink}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource SlinkyOrange}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource F6rmGreen}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource AdultEdRed}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource IslandTrainingPurple}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource InternationalRuby}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource YouHadMeAtYellow}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource NobodyPutsTealInTheCorner}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource HastaLilacVistaBaby}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource HeresLookingAtYouEden}"
+                   Width="Auto"
+                   Height="50"/>
+        <Rectangle Fill="{StaticResource MayTheMistBeWithYou}"
+                   Width="Auto"
+                   Height="50"/>
+
+    </StackPanel>
+</Page>

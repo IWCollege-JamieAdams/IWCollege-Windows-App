@@ -4,6 +4,9 @@
     xmlns:local="using:IWCollege.Resources"
     xmlns:converters="using:IWCollege.Resources.Converters">
 
+    // an example of a converter
+    // converters are used in conjunction with XAML
+    // data bound to a control, such as a textbox, can be thrown at a convertor for formatting or altering, then smashed back to the textbox control for display
     <converters:CurrencyConverter x:Key="CurrencyConverter" />
     
 

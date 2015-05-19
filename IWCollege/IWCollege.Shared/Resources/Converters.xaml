@@ -4,6 +4,8 @@
     xmlns:local="using:IWCollege.Resources"
     xmlns:converters="using:IWCollege.Resources.Converters">
 
+    <!-- example of linking to a converter -->
+    <!-- the namespace is due to using the folder names in shared resources -->
     <converters:CurrencyConverter x:Key="CurrencyConverter" />
     
 
